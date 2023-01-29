@@ -18,6 +18,11 @@
     <header class="header">
         <div class="container">
             <nav class="header__nav">
+                <button type="button" class="menu-button">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
                 <ul class="menu">
                     <li class="menu__item"><a class="menu__item-link" href="#new__anchor">Что нового</a></li>
                     <li class="menu__item"><a class="menu__item-link" href="#color__anchor">Цвет</a></li>
@@ -34,7 +39,9 @@
                 <div class="header__inner">
                     <h1 class="header__inner-title">IPHONE 14 PRO</h1>
                     <img class="header__img" src="images/iPhone14Pro.png" alt="iPhone 14 Pro">
-                    <button class="header__button">ВЫБРАТЬ</button>
+                    <button class="header__button">
+                        <a href="#color__anchor">ВЫБРАТЬ</a>
+                    </button>
                 </div>
             </div>
         </section>
@@ -71,22 +78,30 @@
                 </h2>
                 <div class="color__items">
                     <div class="color__item">
-                        <img class="color__item-img" src="images/color-1.jpg" alt="iPhone 14 Pro">
+                        <a href="#">
+                            <img class="color__item-img" src="images/color-1.jpg" alt="iPhone 14 Pro">
+                        </a>
                         <p>Silver</p>
                         <span>Серебристый</span>
                     </div>
                     <div class="color__item">
-                        <img class="color__item-img" src="images/color-2.jpg" alt="iPhone 14 Pro">
+                        <a href="#">
+                            <img class="color__item-img" src="images/color-2.jpg" alt="iPhone 14 Pro">
+                        </a>
                         <p>Deep purple</p>
                         <span>Темно фиолетовый</span>
                     </div>
                     <div class="color__item">
-                        <img class="color__item-img" src="images/color-3.jpg" alt="iPhone 14 Pro">
+                        <a href="#">
+                            <img class="color__item-img" src="images/color-3.jpg" alt="iPhone 14 Pro">
+                        </a>
                         <p>Gold</p>
                         <span>Золотой</span>
                     </div>
                     <div class="color__item">
-                        <img class="color__item-img" src="images/color-4.jpg" alt="iPhone 14 Pro">
+                        <a href="#">
+                            <img class="color__item-img" src="images/color-4.jpg" alt="iPhone 14 Pro">
+                        </a>
                         <p>Space Black</p>
                         <span>Космический черный</span>
                     </div>
@@ -111,11 +126,17 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
+                <a class="footer__text-link" href="#">
                 <p class="footer__text">Политика конфиденциальности</p>
+                </a>
+                <a class="footer__logo-link" href="#">
                 <img class="footer__logo" src="images/logo.svg" alt="Logo">
+                </a>
                 <a class="footer__tel" href="tel:+380504565656">+38 050-456-56-56</a>
             </div>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
